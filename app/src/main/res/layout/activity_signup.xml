@@ -78,7 +78,7 @@
         android:layout_marginTop="24dp" />
 
     <TextView
-        android:layout_width="1"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="I agree to be contacted by 99 acres and others for similiar properties or related services"
         android:textColor="@color/floral_white"
