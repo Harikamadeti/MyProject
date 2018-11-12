@@ -73,17 +73,70 @@
         android:layout_below="@+id/signup_password"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="49dp"
-        android:layout_marginLeft="49dp"
-        android:layout_marginTop="24dp" />
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/checkbox"
+        android:buttonTint="@color/floral_white"
+        android:checked="false" />
 
     <TextView
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:text="I agree to be contacted by 99 acres and others for similiar properties or related services"
+        android:id="@+id/text1"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/signup_password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="197dp"
+        android:layout_toRightOf="@+id/checkbox"
+        android:text="@string/text1"
         android:textColor="@color/floral_white"
-        android:textStyle="bold"/>
+        android:textStyle="normal" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkbox"
+        android:layout_marginLeft="38dp"
+        android:id="@+id/terms"
+        android:layout_marginTop="30dp"
+        android:text="@string/text2"
+        android:textColor="@color/floral_white" />
 
+    <Button
+        android:id="@+id/signup_register"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/terms"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/slate_blue"
+        android:text="REGISTER" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/signup_register"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/floral_white"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/signup_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
+        android:text="Skip,I'll do it later"
+        android:textColor="@color/floral_white"
+        android:textSize="15dp"
+        android:textStyle="normal" />
 
 </RelativeLayout>
