@@ -121,6 +121,7 @@
     <Button
         android:layout_width="320dp"
         android:layout_height="40dp"
+        android:id="@+id/signup_login"
         android:layout_below="@+id/signup_register"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="8dp"
