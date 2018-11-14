@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_shortlists"
+            android:icon="@drawable/ic_shortlists"
+            android:title="My shortlists" />
+        <item
+            android:id="@+id/nav_searches"
+            android:icon="@drawable/ic_searches"
+            android:title="Recent searches" />
+        <item
+            android:id="@+id/nav_preferences"
+            android:icon="@drawable/ic_preferences"
+            android:title="My Preferences" />
+
+
+        <item android:title="Search">
+            <menu>
+                <item
+                    android:id="@+id/nav_residential"
+                    android:icon="@drawable/ic_residential"
+                    android:title="Residential Search" />
+                <item
+                    android:id="@+id/nav_landmark"
+                    android:icon="@drawable/ic_landmark"
+                    android:title="Landmark Search" />
+                <item
+                    android:id="@+id/nav_commercial"
+                    android:icon="@drawable/ic_commercial"
+                    android:title="Commercial Search" />
+
+            </menu>
+        </item>
+
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="View Profile" />
+            <item
+                android:id="@+id/nav_customer"
+                android:icon="@drawable/ic_customer"
+                android:title="Customer Service" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+    </group>
+
+</menu>
